@@ -11,3 +11,7 @@ add_executable(3_party 3_pull_up_constructor_body/party.cc)
 add_executable(3_party1 3_pull_up_constructor_body/party1.cc)
 add_executable(3_employee 3_pull_up_constructor_body/employee.cc)
 add_executable(3_employee1 3_pull_up_constructor_body/employee1.cc)
+
+# 12.4 push down method
+add_executable(4_employee 4_push_down_method/employee.cc)
+add_executable(4_employee1 4_push_down_method/employee1.cc)
