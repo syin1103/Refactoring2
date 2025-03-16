@@ -19,3 +19,8 @@ add_executable(4_employee1 4_push_down_method/employee1.cc)
 # 12.5 push down field
 add_executable(5_employee 5_push_down_field/employee.cc)
 add_executable(5_employee1 5_push_down_field/employee1.cc)
+
+# 12.6 replace type code with subclasses
+add_executable(6_employee 6_replace_type_code_with_subclasses/employee.cc)
+add_executable(6_employee1 6_replace_type_code_with_subclasses/employee1.cc)
+add_executable(6_employee2 6_replace_type_code_with_subclasses/employee2.cc)
