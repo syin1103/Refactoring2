@@ -24,3 +24,7 @@ add_executable(5_employee1 5_push_down_field/employee1.cc)
 add_executable(6_employee 6_replace_type_code_with_subclasses/employee.cc)
 add_executable(6_employee1 6_replace_type_code_with_subclasses/employee1.cc)
 add_executable(6_employee2 6_replace_type_code_with_subclasses/employee2.cc)
+
+# 12.7 remove subclass
+add_executable(person 7_remove_subclass/person.cc)
+add_executable(person1 7_remove_subclass/person1.cc)
