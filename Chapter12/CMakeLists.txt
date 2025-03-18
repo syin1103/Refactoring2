@@ -32,3 +32,7 @@ add_executable(person1 7_remove_subclass/person1.cc)
 # 12.8 extract superclass
 add_executable(department 8_extract_superclass/department.cc)
 add_executable(department1 8_extract_superclass/department1.cc)
+
+# 12.9 collapse hierarchy
+add_executable(9_employee 9_collapse_hierarchy/employee.cc)
+add_executable(9_employee1 9_collapse_hierarchy/employee1.cc)
