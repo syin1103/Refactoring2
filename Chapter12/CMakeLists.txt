@@ -28,3 +28,7 @@ add_executable(6_employee2 6_replace_type_code_with_subclasses/employee2.cc)
 # 12.7 remove subclass
 add_executable(person 7_remove_subclass/person.cc)
 add_executable(person1 7_remove_subclass/person1.cc)
+
+# 12.8 extract superclass
+add_executable(department 8_extract_superclass/department.cc)
+add_executable(department1 8_extract_superclass/department1.cc)
