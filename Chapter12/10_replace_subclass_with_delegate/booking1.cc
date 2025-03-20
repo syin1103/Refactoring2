@@ -17,7 +17,7 @@ struct Extras {
 };
 
 class PremiumBookingDelegate;
-class Booking {
+class Booking : public std::enable_shared_from_this<Booking> {
  public:
   Booking(Show show, Date date) : show_(show), date_(date) {}
   ~Booking() = default;
@@ -35,7 +35,8 @@ class Booking {
   }
 
   void BePremium(Extras extras) {
-    prem_delegate_ = std::make_unique<PremiumBookingDelegate>(this, extras);
+    prem_delegate_ =
+        std::make_unique<PremiumBookingDelegate>(shared_from_this(), extras);
   }
 
  private:
@@ -52,7 +53,7 @@ using BookingPtr = std::shared_ptr<Booking>;
 
 class PremiumBookingDelegate {
  public:
-  PremiumBookingDelegate(Booking* host_booking, Extras extras)
+  PremiumBookingDelegate(std::shared_ptr<Booking> host_booking, Extras extras)
       : host_booking_(host_booking), extras_(extras) {}
   ~PremiumBookingDelegate() = default;
 
@@ -67,7 +68,7 @@ class PremiumBookingDelegate {
 
  private:
   Extras extras_;
-  Booking* host_booking_;
+  std::shared_ptr<Booking> host_booking_;
 };
 
 bool Booking::HasTalkBack() {
