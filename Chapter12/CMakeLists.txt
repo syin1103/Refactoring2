@@ -40,3 +40,5 @@ add_executable(9_employee1 9_collapse_hierarchy/employee1.cc)
 # 12.10 replace subclass with delegate
 add_executable(booking 10_replace_subclass_with_delegate/booking.cc)
 add_executable(booking1 10_replace_subclass_with_delegate/booking1.cc)
+add_executable(bird 10_replace_subclass_with_delegate/bird.cc)
+add_executable(bird1 10_replace_subclass_with_delegate/bird1.cc)
