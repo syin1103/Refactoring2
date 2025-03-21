@@ -42,3 +42,8 @@ add_executable(booking 10_replace_subclass_with_delegate/booking.cc)
 add_executable(booking1 10_replace_subclass_with_delegate/booking1.cc)
 add_executable(bird 10_replace_subclass_with_delegate/bird.cc)
 add_executable(bird1 10_replace_subclass_with_delegate/bird1.cc)
+
+# 12.11 replace superclass with delegate
+add_executable(scroll 11_replace_superclass_with_delegate/scroll.cc)
+add_executable(scroll1 11_replace_superclass_with_delegate/scroll1.cc)
+add_executable(scroll2 11_replace_superclass_with_delegate/scroll2.cc)
