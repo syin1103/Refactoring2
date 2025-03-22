@@ -9,3 +9,7 @@ add_executable(base_charge1 2_parameterize_function/base_charge1.cc)
 # 11.3 remove flag argument
 add_executable(delivery 3_remove_flag_argument/delivery.cc)
 add_executable(delivery1 3_remove_flag_argument/delivery1.cc)
+
+# 11.4 preserve whole object
+add_executable(heating_plan 4_preserve_whole_object/heating_plan.cc)
+add_executable(heating_plan1 4_preserve_whole_object/heating_plan1.cc)
