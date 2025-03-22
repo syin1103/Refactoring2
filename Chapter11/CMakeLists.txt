@@ -13,3 +13,7 @@ add_executable(delivery1 3_remove_flag_argument/delivery1.cc)
 # 11.4 preserve whole object
 add_executable(heating_plan 4_preserve_whole_object/heating_plan.cc)
 add_executable(heating_plan1 4_preserve_whole_object/heating_plan1.cc)
+
+# 11.5 replace parameter with query
+add_executable(order 5_replace_parameter_with_query/order.cc)
+add_executable(order1 5_replace_parameter_with_query/order1.cc)
