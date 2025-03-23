@@ -17,3 +17,7 @@ add_executable(heating_plan1 4_preserve_whole_object/heating_plan1.cc)
 # 11.5 replace parameter with query
 add_executable(order 5_replace_parameter_with_query/order.cc)
 add_executable(order1 5_replace_parameter_with_query/order1.cc)
+
+# 11.6 replace query with parameter
+add_executable(temperature 6_replace_query_with_parameter/temperature.cc)
+add_executable(temperature1 6_replace_query_with_parameter/temperature1.cc)
