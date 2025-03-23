@@ -21,3 +21,7 @@ add_executable(order1 5_replace_parameter_with_query/order1.cc)
 # 11.6 replace query with parameter
 add_executable(temperature 6_replace_query_with_parameter/temperature.cc)
 add_executable(temperature1 6_replace_query_with_parameter/temperature1.cc)
+
+# 11.7 remove setting method
+add_executable(117_person 7_remove_setting_method/person.cc)
+add_executable(117_person1 7_remove_setting_method/person1.cc)
