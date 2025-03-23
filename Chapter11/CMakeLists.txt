@@ -25,3 +25,7 @@ add_executable(temperature1 6_replace_query_with_parameter/temperature1.cc)
 # 11.7 remove setting method
 add_executable(117_person 7_remove_setting_method/person.cc)
 add_executable(117_person1 7_remove_setting_method/person1.cc)
+
+# 11.8 replace constructor with factory function
+add_executable(118_engineer 8_replace_constructor_with_factory_function/engineer.cc)
+add_executable(118_engineer1 8_replace_constructor_with_factory_function/engineer1.cc)
