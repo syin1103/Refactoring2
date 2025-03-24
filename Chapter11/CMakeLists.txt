@@ -29,3 +29,7 @@ add_executable(117_person1 7_remove_setting_method/person1.cc)
 # 11.8 replace constructor with factory function
 add_executable(118_engineer 8_replace_constructor_with_factory_function/engineer.cc)
 add_executable(118_engineer1 8_replace_constructor_with_factory_function/engineer1.cc)
+
+# 11.9 replace function with command
+add_executable(scorer 9_replace_function_with_command/scorer.cc)
+add_executable(scorer1 9_replace_function_with_command/scorer1.cc)
