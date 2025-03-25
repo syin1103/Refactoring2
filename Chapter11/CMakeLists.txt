@@ -33,3 +33,7 @@ add_executable(118_engineer1 8_replace_constructor_with_factory_function/enginee
 # 11.9 replace function with command
 add_executable(scorer 9_replace_function_with_command/scorer.cc)
 add_executable(scorer1 9_replace_function_with_command/scorer1.cc)
+
+# 11.10 replace command with function
+add_executable(charge 10_replace_command_with_function/charge.cc)
+add_executable(charge1 10_replace_command_with_function/charge1.cc)
