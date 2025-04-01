@@ -14,6 +14,10 @@ add_executable(pay_amount1 3_replace_nested_conditional_with_guard_clauses/pay_a
 add_executable(104bird 4_replace_conditional_with_polymorphism/bird.cc)
 add_executable(104bird1 4_replace_conditional_with_polymorphism/bird1.cc)
 
+# 10.5 introduce special case
+add_executable(site 5_introduce_special_case/site.cc)
+add_executable(site1 5_introduce_special_case/site1.cc)
+
 # 10.6 introduce assertion
 add_executable(discount 6_introduce_assertion/discount.cc)
 add_executable(discount1 6_introduce_assertion/discount1.cc)
