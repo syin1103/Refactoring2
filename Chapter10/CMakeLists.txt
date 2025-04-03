@@ -13,6 +13,8 @@ add_executable(pay_amount1 3_replace_nested_conditional_with_guard_clauses/pay_a
 # 10.4 replace conditional with polymorphism
 add_executable(104bird 4_replace_conditional_with_polymorphism/bird.cc)
 add_executable(104bird1 4_replace_conditional_with_polymorphism/bird1.cc)
+add_executable(rating 4_replace_conditional_with_polymorphism/rating.cc)
+add_executable(rating1 4_replace_conditional_with_polymorphism/rating1.cc)
 
 # 10.5 introduce special case
 add_executable(site 5_introduce_special_case/site.cc)
