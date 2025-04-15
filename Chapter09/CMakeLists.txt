@@ -15,3 +15,7 @@ add_executable(production_plan1 3_replace_derived_varible_with_query/production_
 # 9.4 change reference to value
 add_executable(telephone 4_change_reference_to_value/telephone.cc)
 add_executable(telephone1 4_change_reference_to_value/telephone1.cc)
+
+# 9.5 change value to reference
+add_executable(0905order 5_change_value_to_reference/order.cc)
+add_executable(0905order1 5_change_value_to_reference/order1.cc)
