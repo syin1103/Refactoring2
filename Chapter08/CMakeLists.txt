@@ -7,3 +7,7 @@ add_executable(802customer 2_move_field/customer.cc)
 add_executable(802customer1 2_move_field/customer1.cc)
 add_executable(802account 2_move_field/account.cc)
 add_executable(802account1 2_move_field/account1.cc)  
+
+# 8.3 move statements into function
+add_executable(photo 3_move_statements_into_function/photo.cc)
+add_executable(photo1 3_move_statements_into_function/photo1.cc)
