@@ -23,3 +23,7 @@ add_executable(applies1 5_replace_inline_code_with_function_call/applies1.cc)
 # 8.6 slide statements
 add_executable(slide 6_slide_statements/slide.cc)
 add_executable(slide1 6_slide_statements/slide1.cc)
+
+# 8.7 split loop
+add_executable(loop 7_split_loop/loop.cc)
+add_executable(loop1 7_split_loop/loop1.cc)
