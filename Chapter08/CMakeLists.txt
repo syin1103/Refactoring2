@@ -19,3 +19,7 @@ add_executable(render_person1 4_move_statements_to_callers/render_person1.cc)
 # 8.5 replace inline code with function call
 add_executable(applies 5_replace_inline_code_with_function_call/applies.cc)
 add_executable(applies1 5_replace_inline_code_with_function_call/applies1.cc)
+
+# 8.6 slide statements
+add_executable(slide 6_slide_statements/slide.cc)
+add_executable(slide1 6_slide_statements/slide1.cc)
