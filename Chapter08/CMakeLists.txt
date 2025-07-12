@@ -15,3 +15,7 @@ add_executable(photo1 3_move_statements_into_function/photo1.cc)
 # 8.4 move statement to callers
 add_executable(render_person 4_move_statements_to_callers/render_person.cc)
 add_executable(render_person1 4_move_statements_to_callers/render_person1.cc)
+
+# 8.5 replace inline code with function call
+add_executable(applies 5_replace_inline_code_with_function_call/applies.cc)
+add_executable(applies1 5_replace_inline_code_with_function_call/applies1.cc)
