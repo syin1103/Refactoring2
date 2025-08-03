@@ -29,3 +29,7 @@ add_executable(0707person1 7_hide_delegate/person1.cc)
 # 7.8 remove middle man
 add_executable(0708person 8_remove_middle_man/person.cc)
 add_executable(0708person1 8_remove_middle_man/person1.cc)
+
+# 7.9 subsitute algorithm
+add_executable(found_person 9_subsitute_algorithm/found_person.cc)
+add_executable(found_person1 9_subsitute_algorithm/found_person1.cc)
