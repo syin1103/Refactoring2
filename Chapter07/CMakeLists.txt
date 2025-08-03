@@ -17,3 +17,7 @@ add_executable(0704order1 4_replace_temp_with_query/order1.cc)
 # 7.5 extract class
 add_executable(0705person 5_extract_class/person.cc)
 add_executable(0705person1 5_extract_class/person1.cc)
+
+# 7.6 inline class
+add_executable(shipment 6_inline_class/shipment.cc)
+add_executable(shipment1 6_inline_class/shipment1.cc)
