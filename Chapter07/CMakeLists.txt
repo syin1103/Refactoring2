@@ -25,3 +25,7 @@ add_executable(shipment1 6_inline_class/shipment1.cc)
 # 7.7 hide delegate
 add_executable(0707person 7_hide_delegate/person.cc)
 add_executable(0707person1 7_hide_delegate/person1.cc)
+
+# 7.8 remove middle man
+add_executable(0708person 8_remove_middle_man/person.cc)
+add_executable(0708person1 8_remove_middle_man/person1.cc)
