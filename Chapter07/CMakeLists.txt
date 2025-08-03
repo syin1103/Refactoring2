@@ -13,3 +13,7 @@ add_executable(0703priority1 3_replace_primitive_with_object/priority1.cc)
 # 7.4 replace temp with query
 add_executable(0704order 4_replace_temp_with_query/order.cc)
 add_executable(0704order1 4_replace_temp_with_query/order1.cc)
+
+# 7.5 extract class
+add_executable(0705person 5_extract_class/person.cc)
+add_executable(0705person1 5_extract_class/person1.cc)
