@@ -21,3 +21,7 @@ add_executable(0705person1 5_extract_class/person1.cc)
 # 7.6 inline class
 add_executable(shipment 6_inline_class/shipment.cc)
 add_executable(shipment1 6_inline_class/shipment1.cc)
+
+# 7.7 hide delegate
+add_executable(0707person 7_hide_delegate/person.cc)
+add_executable(0707person1 7_hide_delegate/person1.cc)
