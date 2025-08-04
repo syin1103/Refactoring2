@@ -29,3 +29,7 @@ add_executable(company_name1 7_rename_variable/company_name1.cc)
 # 6.8 introduce parameter object
 add_executable(number_range 8_introduce_parameter_object/number_range.cc)
 add_executable(number_range1 8_introduce_parameter_object/number_range1.cc)
+
+# 6.9 combine functions into class
+add_executable(reading 9_combine_functions_into_class/reading.cc)
+add_executable(reading1 9_combine_functions_into_class/reading1.cc)
