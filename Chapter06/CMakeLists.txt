@@ -21,3 +21,7 @@ add_executable(circum1 5_change_function_declaration/circum1.cc)
 # 6.6 encapsulate_variable
 add_executable(default_owner 6_encapsulate_variable/default_owner.cc)
 add_executable(default_owner1 6_encapsulate_variable/default_owner1.cc)
+
+# 6.7 rename variable
+add_executable(company_name 7_rename_variable/company_name.cc)
+add_executable(company_name1 7_rename_variable/company_name1.cc)
