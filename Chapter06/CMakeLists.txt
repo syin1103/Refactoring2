@@ -25,3 +25,7 @@ add_executable(default_owner1 6_encapsulate_variable/default_owner1.cc)
 # 6.7 rename variable
 add_executable(company_name 7_rename_variable/company_name.cc)
 add_executable(company_name1 7_rename_variable/company_name1.cc)
+
+# 6.8 introduce parameter object
+add_executable(number_range 8_introduce_parameter_object/number_range.cc)
+add_executable(number_range1 8_introduce_parameter_object/number_range1.cc)
