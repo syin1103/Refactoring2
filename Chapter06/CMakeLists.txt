@@ -17,3 +17,7 @@ add_executable(base_price1 4_inline_variable/base_price1.cc)
 # 6.5 change function declaration
 add_executable(circum 5_change_function_declaration/circum.cc)
 add_executable(circum1 5_change_function_declaration/circum1.cc)
+
+# 6.6 encapsulate_variable
+add_executable(default_owner 6_encapsulate_variable/default_owner.cc)
+add_executable(default_owner1 6_encapsulate_variable/default_owner1.cc)
