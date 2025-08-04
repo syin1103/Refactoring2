@@ -13,3 +13,7 @@ add_executable(0603price1 3_extract_variable/price1.cc)
 # 6.4 inline variable
 add_executable(base_price 4_inline_variable/base_price.cc)
 add_executable(base_price1 4_inline_variable/base_price1.cc)
+
+# 6.5 change function declaration
+add_executable(circum 5_change_function_declaration/circum.cc)
+add_executable(circum1 5_change_function_declaration/circum1.cc)
