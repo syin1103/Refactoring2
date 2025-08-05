@@ -33,3 +33,7 @@ add_executable(number_range1 8_introduce_parameter_object/number_range1.cc)
 # 6.9 combine functions into class
 add_executable(reading 9_combine_functions_into_class/reading.cc)
 add_executable(reading1 9_combine_functions_into_class/reading1.cc)
+
+# 6.10 combine functions into transform
+add_executable(enrich_reading 10_combine_functions_into_transform/enrich_reading.cc)
+add_executable(enrich_reading1 10_combine_functions_into_transform/enrich_reading1.cc)
