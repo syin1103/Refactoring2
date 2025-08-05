@@ -37,3 +37,7 @@ add_executable(reading1 9_combine_functions_into_class/reading1.cc)
 # 6.10 combine functions into transform
 add_executable(enrich_reading 10_combine_functions_into_transform/enrich_reading.cc)
 add_executable(enrich_reading1 10_combine_functions_into_transform/enrich_reading1.cc)
+
+# 6.11 split phase
+add_executable(price_order 11_split_phase/price_order.cc)
+add_executable(price_order1 11_split_phase/price_order1.cc)
